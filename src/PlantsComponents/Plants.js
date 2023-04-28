@@ -1,7 +1,11 @@
+import { data } from "../Data/data";
+import Plant from "./Plant";
+
 const Plants = () => {
     return (
         <div>
-            I am a Plants Component
+            {data.map(plant => {
+            return <Plant plantInfo = {plant} key={plant.id}/>})}
         </div>
     )
 }
