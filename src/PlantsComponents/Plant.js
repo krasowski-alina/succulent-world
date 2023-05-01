@@ -3,7 +3,7 @@ import cart from './cart.png'
 const Plant = ({plantInfo}) => {
 
     return (
-        <div>
+        <div className='plant-card'>
             <h3>{plantInfo.itemName}</h3>
             <img src={plantInfo.images[0]} width="150px" alt="succulent close up"/>
             <p>$ {plantInfo.price}</p>
