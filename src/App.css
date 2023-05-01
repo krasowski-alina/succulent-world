@@ -2,6 +2,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Rubik', sans-serif;
 }
 a {
   text-decoration: none;
@@ -12,7 +13,7 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 1.5em;
-  background-color: #CDE990;
+  background-color: rgba(205, 233, 144, .9);
 }
 .logo {
   width: 3.125rem;
@@ -37,9 +38,41 @@ nav {
   align-items: center;
 }
 /* Plants Component */
-.plants-card {
+.plants-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-auto-rows: 1fr;
   gap: 1em;
+}
+/* Filter  */
+.filter-btn {
+  background: linear-gradient(162deg, rgba(81,146,89,1) 45%, rgba(170,203,115,1) 80%);
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-shadow: .8px .8px .8px black;
+  letter-spacing: .2px;
+  font-size: 1.125rem;
+  padding: .4em .7em;
+  border-radius: 2px;
+  margin-left: .5em;
+  cursor: pointer;
+}
+h1 {
+  color: #FEA1BF;
+  font-size: 2.18rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+.filter-btn:hover {
+  color: #519259;
+  background: #FFFFFF;
+  border-bottom: 2px solid #519259;
+  transition: all .3s ease-in-out;
+}
+.filter-btn-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
 }

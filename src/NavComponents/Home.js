@@ -5,8 +5,9 @@ import Plants from "../PlantsComponents/Plants";
 const Home = () => {
     return (
         <div className="home-placeholder">
-            <Plants/>
+            
             <Categories/>
+            <Plants/>
             <Cart/>
         </div>
     )

@@ -3,7 +3,7 @@ import Plant from "./Plant";
 
 const Plants = () => {
     return (
-        <div className="plants-card">
+        <div className="plants-cards">
             {data.map(plant => {
             return <Plant plantInfo = {plant} key={plant.id}/>})}
         </div>
