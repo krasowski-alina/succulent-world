@@ -45,12 +45,9 @@ nav {
   gap: 1em;
 }
 /* Filter  */
-.filter-btn {
-  background: linear-gradient(162deg, rgba(81,146,89,1) 45%, rgba(170,203,115,1) 80%);
-  color: #FFFFFF;
+h6 {
   font-weight: bold;
   margin-bottom: 0;
-  text-shadow: .8px .8px .8px black;
   letter-spacing: .2px;
   font-size: 1.125rem;
   padding: .3em .4em;
@@ -60,17 +57,24 @@ nav {
   cursor: pointer;
   width: 5em;
 }
+.filter-btn {
+  background: linear-gradient(162deg, rgba(81,146,89,1) 45%, rgba(170,203,115,1) 80%);
+  color: #FFFFFF;
+  text-shadow: .8px .8px .8px black;
+}
+.selected-category,
+.filter-btn:hover {
+  color: #645CBB;
+  background: #FFFFFF;
+  border-bottom: 2px solid #645CBB;
+  transition: all .3s ease-in-out;
+  text-shadow: .3px .3px .8px black;
+}
 h1 {
   color: #FEA1BF;
   font-size: 2.18rem;
   text-align: center;
   margin-bottom: 0;
-}
-.filter-btn:hover {
-  color: #519259;
-  background: #FFFFFF;
-  border-bottom: 2px solid #519259;
-  transition: all .3s ease-in-out;
 }
 .filter-btn-container {
   display: flex;
