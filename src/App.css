@@ -53,10 +53,12 @@ nav {
   text-shadow: .8px .8px .8px black;
   letter-spacing: .2px;
   font-size: 1.125rem;
-  padding: .4em .7em;
+  padding: .3em .4em;
+  text-align: center;
   border-radius: 2px;
   margin-left: .5em;
   cursor: pointer;
+  width: 5em;
 }
 h1 {
   color: #FEA1BF;
@@ -74,5 +76,8 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
+}
+@media (min-width: 600px){
 
 }

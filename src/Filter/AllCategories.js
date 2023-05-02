@@ -1,7 +1,7 @@
 import Filter from "./Filter";
 
 const Categories = () => {
-    const plantCategories = ['succulent', 'cactus', 'agave', 'aloe', 'lithops']
+    const plantCategories = ['succulent', 'cactus', 'agave', 'aloe', 'lithops', 'all']
     return (
         <div>
             <h1>Find your new plant</h1>
