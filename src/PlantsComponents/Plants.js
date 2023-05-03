@@ -7,7 +7,9 @@ const Plants = () => {
     const selectedCategory = useSelector(getSelectedCategory) 
     return (
         <div className="plants-cards">
-            {data.filter(plant => plant.category === selectedCategory)
+            {data.filter(plant => {
+                if(selectedCategory === "all") return selectedCategory
+                return plant.category === selectedCategory})
                     .map(plant => {
                         return <Plant plantInfo = {plant} key={plant.id}/>})}
         </div>

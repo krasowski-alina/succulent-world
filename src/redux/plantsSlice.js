@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 export const plantsSlice = createSlice({
     name: 'plants',
     initialState: {
-        selectedCategory: "succulent"
+        selectedCategory: "all"
     },
     reducers: {
         filterCategory: (state, action) => {
