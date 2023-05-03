@@ -8,8 +8,8 @@ const Plants = () => {
     return (
         <div className="plants-cards">
             {data.filter(plant => plant.category === selectedCategory)
-                .map(plant => {
-                return <Plant plantInfo = {plant} key={plant.id}/>})}
+                    .map(plant => {
+                        return <Plant plantInfo = {plant} key={plant.id}/>})}
         </div>
     )
 }
