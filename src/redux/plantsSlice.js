@@ -6,10 +6,11 @@ export const plantsSlice = createSlice({
         selectedCategory: "succulent"
     },
     reducers: {
-        incrementByAmount: (state, action) => {
-        state.value += action.payload
+        filterCategory: (state, action) => {
+        state.selectedCategory = action.payload
         },
     },
     })
+export const { filterCategory } = plantsSlice.actions
 export const getSelectedCategory = state => state.plants.selectedCategory
 export default plantsSlice.reducer
