@@ -5,6 +5,9 @@ const ChangeQuantity = ({quantity, setQuantity}) => {
     }
     const decrement = () => {
         const newQuantity = quantity - 1
+        if(quantity <= 1) {
+            return quantity
+        }
         setQuantity(newQuantity)
     }
     return (
