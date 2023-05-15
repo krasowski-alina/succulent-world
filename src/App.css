@@ -80,7 +80,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
+  margin-bottom: 1em;
 }
 @media (min-width: 600px){
 
