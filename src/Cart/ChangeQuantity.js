@@ -11,10 +11,10 @@ const ChangeQuantity = ({quantity, setQuantity}) => {
         setQuantity(newQuantity)
     }
     return (
-        <div>
-            <button onClick={decrement}>-</button>
-            <span>{quantity}</span>
-            <button onClick={increment}>+</button>
+        <div className="addRemoveItemsBtn">
+            <button onClick={decrement} className="add">-</button>
+            <span className="itemsAmount">{quantity}</span>
+            <button onClick={increment} className="remove">+</button>
         </div>
     )
 }

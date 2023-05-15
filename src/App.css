@@ -82,6 +82,28 @@ h1 {
   flex-wrap: wrap;
   margin-bottom: 1em;
 }
+/* Change Quantity */
+.addRemoveItemsBtn {
+  border: 2px solid #645CBB;
+  border-radius: 5px;
+}
+.add,
+.remove {
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding: .2em .5em;
+  color: #4f9258;
+}
+.itemsAmount {
+  color: #645CBB;
+  font-weight: bold;
+  font-family: inherit;
+  text-shadow: .3px .3px .8px black;
+  font-size: 1.125rem;
+}
 @media (min-width: 600px){
 
 }
