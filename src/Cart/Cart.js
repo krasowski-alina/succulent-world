@@ -6,6 +6,7 @@ const Cart = () => {
     const cartItems = useSelector(getCartItems)
     return (
         <div>
+            <h2>Your cart items: </h2>
             <img src={cart}  alt="shopping bag"/>
             {cartItems.map((cartItem, index) => <CartItems cartItem = {cartItem} key={index}/>)}
             

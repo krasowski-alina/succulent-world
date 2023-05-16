@@ -1,10 +1,12 @@
+import { data } from "../Data/data";
 
 const CartItems = ({cartItem}) => {
-    console.log(cartItem)
-    
+    const selectedPlant = data.find(item => item.id === cartItem.plantId)
+
     return (
         <div>
-            cart item
+            <span>{selectedPlant.itemName}</span>
+            <span>x {cartItem.quantity}</span>
         </div>
     )
 }

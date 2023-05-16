@@ -12,7 +12,7 @@ import icon from './NavComponents/icon.ico'
 
 function App() {
   return (
-    <div>
+    <div className='test'>
       <Router>
         <nav>
           <Link to="/" className='link'><img src={icon} alt="company logo" className='logo'/></Link>

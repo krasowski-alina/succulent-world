@@ -12,11 +12,13 @@ const Plant = ({plant}) => {
             <h3>{plant.itemName}</h3>
             <img src={plant.images[0]} width="150px" alt="succulent close up"/>
             <p>$ {plant.price}</p>
-            <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
-            <img onClick={() => dispatch(addItemsToCart({plant, quantity}))}
-                src={cart}
-                className='addToCartLogo'
-                alt="shopping bag"/>
+            <div className='cart-bar'>
+                <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
+                <img onClick={() => dispatch(addItemsToCart({plant, quantity}))}
+                    src={cart}
+                    className='addToCartLogo'
+                    alt="shopping bag"/>
+            </div>
         </div>
     )
 }
