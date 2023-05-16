@@ -65,7 +65,7 @@ h6 {
 .selected-category,
 .filter-btn:hover {
   color: #645CBB;
-  background: #FFFFFF;
+  background: #fad2d2;
   border-bottom: 2px solid #645CBB;
   transition: all .3s ease-in-out;
   text-shadow: .3px .3px .8px black;
@@ -103,6 +103,10 @@ h1 {
   font-family: inherit;
   text-shadow: .3px .3px .8px black;
   font-size: 1.125rem;
+}
+.test {
+  background: url(/src/Filter/pink.jpg) bottom/cover no-repeat;
+  padding: .5em .5em 8em 1em;
 }
 @media (min-width: 600px){
 

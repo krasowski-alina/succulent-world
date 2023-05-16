@@ -5,10 +5,10 @@ import Plants from "../PlantsComponents/Plants";
 const Home = () => {
     return (
         <div className="home-placeholder">
-            
+            <Cart/>
             <Categories/>
             <Plants/>
-            <Cart/>
+            
         </div>
     )
 }

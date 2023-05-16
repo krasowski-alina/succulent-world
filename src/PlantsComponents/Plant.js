@@ -1,16 +1,22 @@
 import { useState } from 'react';
 import ChangeQuantity from '../Cart/ChangeQuantity';
 import cart from './cart.png'
+import { addItemsToCart } from '../redux/cartSlice';
+import { useDispatch } from 'react-redux';
 
-const Plant = ({plantInfo}) => {
+const Plant = ({plant}) => {
     const [quantity, setQuantity] = useState(1)
+    const dispatch = useDispatch()
     return (
         <div className='plant-card'>
-            <h3>{plantInfo.itemName}</h3>
-            <img src={plantInfo.images[0]} width="150px" alt="succulent close up"/>
-            <p>$ {plantInfo.price}</p>
+            <h3>{plant.itemName}</h3>
+            <img src={plant.images[0]} width="150px" alt="succulent close up"/>
+            <p>$ {plant.price}</p>
             <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
-            <img src={cart} className='addToCartLogo' alt="shopping bag"/>
+            <img onClick={() => dispatch(addItemsToCart({plant, quantity}))}
+                src={cart}
+                className='addToCartLogo'
+                alt="shopping bag"/>
         </div>
     )
 }

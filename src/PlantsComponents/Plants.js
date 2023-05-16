@@ -11,7 +11,7 @@ const Plants = () => {
                 if(selectedCategory === "all") return selectedCategory
                 return plant.category === selectedCategory})
                     .map(plant => {
-                        return <Plant plantInfo = {plant} key={plant.id}/>})}
+                        return <Plant plant = {plant} key={plant.id}/>})}
         </div>
     )
 }
