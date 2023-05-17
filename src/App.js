@@ -11,8 +11,11 @@ import Contact from './NavComponents/Contact';
 import icon from './NavComponents/icon.ico'
 import cart from './NavComponents/cart.png'
 import Cart from './Cart/Cart';
+import { getTotalPrice } from './redux/cartSlice';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const totalPrice = useSelector(getTotalPrice)
   return (
     <div className='test'>
       <Router>
@@ -20,7 +23,7 @@ function App() {
           <Link to="/" className='link'><img src={icon} alt="company logo" className='logo'/></Link>
           <Link to="about" className='link'>About</Link>
           <Link to="contact" className='link'>Contact</Link>
-          <Link to="cart" className='link'><img src={cart} alt="shopping cart" className='logo'/></Link>
+          <Link to="cart" className='link'><img src={cart} alt="shopping cart" className='logo'/>$ {totalPrice}</Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home/>}/>
