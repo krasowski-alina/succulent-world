@@ -34,14 +34,17 @@ nav {
 /* Plant */
 .plant-card {
   display: flex;
+  padding: .1em .1em 1em .1em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: #dddddd 1px solid;
+  border-radius: 5px;
 }
 /* Plants Component */
 .plants-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-auto-rows: 1fr;
   gap: 1em;
 }
@@ -66,7 +69,7 @@ h6 {
 .selected-category,
 .filter-btn:hover {
   color: #645CBB;
-  background: #fad2d2;
+  background: transparent;
   border-bottom: 2px solid #645CBB;
   transition: all .3s ease-in-out;
   text-shadow: .3px .3px .8px black;
@@ -106,11 +109,11 @@ h1 {
   text-shadow: .3px .3px .8px black;
   font-size: 1.125rem;
 }
-.filter-bar {
+/* .filter-bar {
   background: url(/src/Filter/pink.jpg) bottom/cover no-repeat;
   width: 100%;
   padding: .5em .5em 8em 1em;
-}
+} */
 .cart-bar {
   display: flex;
 }

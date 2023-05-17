@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux';
 import CartItems from './CartItems';
 import cart from './cart.png'
 import { getCartItems } from '../redux/cartSlice';
+
 const Cart = () => {
     const cartItems = useSelector(getCartItems)
     return (
