@@ -16,6 +16,7 @@ import { useSelector } from 'react-redux';
 
 function App() {
   const totalPrice = useSelector(getTotalPrice)
+  
   return (
     <div className='test'>
       <Router>

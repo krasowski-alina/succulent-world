@@ -11,7 +11,7 @@ const Cart = () => {
             <h2>Your cart items: </h2>
             <img src={cart}  alt="shopping bag"/>
             {cartItems.map((cartItem, index) => <CartItems cartItem = {cartItem} key={index}/>)}
-            <h3>Total price: ${totalPrice}</h3>
+            <h3>Total price: ${totalPrice.toFixed(2)}</h3>
             
         </div>
     )

@@ -114,6 +114,13 @@ h1 {
   width: 100%;
   padding: .5em .5em 8em 1em;
 } */
+/* Cart  */
+.selected-plant-img {
+  width: 5vh;
+}
+.trash-icon {
+  width: 3vh;
+}
 .cart-bar {
   display: flex;
 }
