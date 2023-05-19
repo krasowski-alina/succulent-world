@@ -18,13 +18,15 @@ function App() {
   const totalPrice = useSelector(getTotalPrice)
   
   return (
-    <div className='test'>
+    <div>
       <Router>
         <nav>
-          <Link to="/" className='link'><img src={icon} alt="company logo" className='logo'/></Link>
-          <Link to="about" className='link'>About</Link>
-          <Link to="contact" className='link'>Contact</Link>
-          <Link to="cart" className='link'><img src={cart} alt="shopping cart" className='logo'/>$ {totalPrice}</Link>
+          <div className='nav-section'>
+            <Link to="/" className='link'><img src={icon} alt="company logo" className='logo'/></Link>
+            <Link to="about" className='link'>About</Link>
+            <Link to="contact" className='link'>Contact</Link>
+          </div>
+          <Link to="cart" className='link nav-cart'>$ {totalPrice}</Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home/>}/>

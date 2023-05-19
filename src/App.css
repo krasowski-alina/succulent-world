@@ -11,12 +11,23 @@ a {
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 1.5em;
-  background-color: rgba(205, 233, 144, .5);
+  justify-content: space-around;
+  padding: .6em;
+  font-weight: bolder;
+  font-size: 1.125rem;
+  background-color: rgba(205, 233, 144, .4);
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+}
+.nav-cart {
+  background: url(/src/Cart/cart.png) left/1.5rem no-repeat;
+  padding: 0px 0px 0px 30px;
+
 }
 .logo {
-  width: 3.125rem;
+  width: 2.5rem;
 }
 .link {
   margin-left: .7em;
@@ -110,7 +121,8 @@ h1 {
   font-size: 1.125rem;
 }
 /* .filter-bar {
-  background: url(/src/Filter/pink.jpg) bottom/cover no-repeat;
+  background: url(/src/Filter/cacti.jpeg) bottom/cover no-repeat;
+
   width: 100%;
   padding: .5em .5em 8em 1em;
 } */
