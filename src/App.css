@@ -7,6 +7,13 @@ body {
 a {
   text-decoration: none;
 }
+button {
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
 /* Nav bar */
 nav {
   display: flex;
@@ -51,6 +58,22 @@ nav {
   align-items: center;
   border: #dddddd 1px solid;
   border-radius: 5px;
+}
+/* Slides with images of plant */
+.slides-btns {
+  display: flex;
+  gap: 1em;
+}
+.slides-img {
+flex: 0 1 auto;
+border-radius: 4px;
+}
+.slides-btn {
+  color: #645CBB;
+  font-size: 2rem;
+}
+.slides-btn:hover {
+  color: #519259;
 }
 /* Plants Component */
 .plants-cards {
@@ -105,10 +128,6 @@ h1 {
 }
 .add,
 .remove {
-  background: transparent;
-  border: none;
-  font-family: inherit;
-  font-weight: bold;
   font-size: 1.125rem;
   padding: .2em .5em;
   color: #4f9258;

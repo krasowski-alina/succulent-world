@@ -8,7 +8,6 @@ import Slides from './Slides';
 const Plant = ({plant}) => {
     const [quantity, setQuantity] = useState(1)
     
-    
     const dispatch = useDispatch()
     return (
         <div className='plant-card'>
