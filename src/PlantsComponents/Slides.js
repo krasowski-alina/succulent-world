@@ -24,7 +24,7 @@ const Slides = ({images}) => {
     return (
         <div className='slides-btns'>
             <button onClick={prevBtn} className="slides-btn">&lt;</button>
-            <img src={images[plantPic]} alt="plant" width="150px" className="slides-img"/>
+            <img src={images[plantPic]} alt="plant"  className="slides-img"/>
             <button onClick={nextBtn} className="slides-btn">&gt;</button>
         </div>
     )

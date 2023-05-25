@@ -62,10 +62,15 @@ nav {
 /* Slides with images of plant */
 .slides-btns {
   display: flex;
-  gap: 1em;
+  justify-content: space-between;
+  gap: 1.5em;
 }
 .slides-img {
-flex: 0 1 auto;
+/* flex: 0 1 auto; */
+width: 100%;
+max-width: 160px;
+height: 180px;
+object-fit: cover;
 border-radius: 4px;
 }
 .slides-btn {
