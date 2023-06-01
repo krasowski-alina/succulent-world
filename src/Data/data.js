@@ -135,7 +135,7 @@ export const data = [
     },
     {
         id: 13,
-        itemName: '"Julii"',
+        itemName: 'lithops "Julii"',
         category: 'lithops',
         price: 7.99,
         description: 'Lithops julii is a petite succulent comprised of small, immensely fleshy leaves designed to resemble the stony landscape of their South African homeland. As is the case with most mesembs, or mimicry succulents, a majority of the plant lives underground, where the long taproot stores ample water and nutrients to support growth amidst drought conditions.As such, plenty of bright sun will allow the plant to thrive while also encouraging large yellow blooms to appear during the summer months. Like other varieties of Lithops, this specimen can be tricky when it comes to water – be sure to provide thorough but infrequent drinks during the spring and fall, ceasing to water entirely during the summer and winter. Extremely porous soil within a well-draining pot will further shield against issues such as rot, as will ample airflow around the leaves and soil surface.',
@@ -146,7 +146,7 @@ export const data = [
     },
     {
         id: 14,
-        itemName: '"Aurea"',
+        itemName: 'lithops "Aurea"',
         category: 'lithops',
         price: 6.99,
         description: 'The rich green, rounded leaf pairs of Lithops fulviceps ‘Aurea’ feature a polka dot pattern on the flattened upper surface – which is not only decorative, but functional, as the dots are actually translucent ‘windows’ allowing light to reach deep into the recesses of the largely underground leaves and taproot. During the summer months, white blooms with hundreds of yellow stamens will emerge from the cleft between the leaves, adding yet another layer of whimsy to this dainty member of the mesembs, or mimicry plant, family.The blooms and old leaf pairs will begin to fade and shrivel at the end of the fall season, acting as a built-in indicator of when to stop watering, not resuming until the weather warms in the spring. Until then, be sure to shield ‘Aurea’ from freezing temperatures, which could otherwise damage the very water-rich leaves.',
@@ -157,7 +157,7 @@ export const data = [
     },
     {
         id: 15,
-        itemName: '"Malachite"',
+        itemName: 'lithops "Malachite"',
         category: 'lithops',
         price: 9.99,
         description: 'The broad, fleshy, and flat-topped leaves of Lithops salicola ‘Malachite’ sport a mottled olive green and butter yellow coloration, accented by the intricate web of ‘windows’ atop the upper portion of each leaf, designed to let sunlight penetrate into the portion of the plant that resides underground. Reaching only a few inches tall and wide, ‘Malachite’ will grow a new leaf pair each winter, after which the old leaf pair will shrivel away.Like other varieties of Lithops, this cultivar can be tricky when it comes to water – as such, be sure to water thoroughly but infrequently during the spring and fall, ceasing to water entirely during the summer and winter. Extremely porous soil, such as a cactus mix with added perlite, within a well-draining pot will further shield against issues such as rot, as will ample airflow around the leaves and soil surface.',
