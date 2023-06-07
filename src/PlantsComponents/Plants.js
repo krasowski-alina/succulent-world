@@ -6,7 +6,7 @@ import { getSelectedCategory } from "../redux/plantsSlice";
 const Plants = () => {
     const selectedCategory = useSelector(getSelectedCategory) 
     return (
-        <div className="plants-cards">
+        <div className="plants-cards"></div>
             {data.filter(plant => {
                 if(selectedCategory === "all") return selectedCategory
                 return plant.category === selectedCategory})
