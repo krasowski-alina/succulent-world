@@ -9,7 +9,7 @@ import Home from './NavComponents/Home';
 import About from './NavComponents/About';
 import Contact from './NavComponents/Contact';
 import icon from './NavComponents/icon.ico'
-import cart from './NavComponents/cart.png'
+// import cart from './NavComponents/cart.png'
 import Cart from './Cart/Cart';
 import { getTotalPrice } from './redux/cartSlice';
 import { useSelector } from 'react-redux';
@@ -35,7 +35,6 @@ function App() {
           <Route path="cart" element={<Cart/>}/>
         </Routes>
       </Router>
-
     </div>
   );
 }

@@ -23,7 +23,7 @@ nav {
   padding: .6em;
   font-weight: bolder;
   font-size: 1.125rem;
-  background-color: rgba(205, 233, 144, .4);
+  background-color: #E1EAD3;
 }
 .nav-section {
   display: flex;
@@ -45,6 +45,17 @@ nav {
   margin: .1em .2em;
 }
 /* Home */
+.home-heroSection {
+  width: 100%;
+  /* background: url("https://img.freepik.com/free-vector/cute-collection-cactus-watercolor_125540-290.jpg?w=2000&t=st=1685640879~exp=1685641479~hmac=9e2bba181a7e05a937432e7f87364206c2350debbdfafa946be4e99214afb493") center/contain; */
+}
+.plant-test {
+
+  object-fit: cover;
+
+  height: 30vh;
+  width: 100%;
+}
 .home-placeholder {
   max-width: 700px;
   margin: 0 auto;
@@ -59,7 +70,9 @@ nav {
   align-items: center;
   border: #dddddd 1px solid;
   border-radius: 5px;
+
 }
+
 /* Slides with images of plant */
 .slides-btns {
   display: flex;
@@ -84,7 +97,7 @@ border-radius: 4px;
 .plants-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  grid-auto-rows: 1fr;
+  /* grid-auto-rows: 1fr; */
   gap: 1em;
 }
 /* Filter  */
